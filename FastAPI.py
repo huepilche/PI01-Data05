@@ -3,15 +3,18 @@ import pandas as pd
 import sqlalchemy
 import numpy as np
 
+
+# importación de la base de datos creada a partir de un dataframe de pandas
 DATABASE_URL= 'sqlite:///Datasets/filmes.db'
 engine = sqlalchemy.create_engine(DATABASE_URL)
 
-
+#Se define la WebApp
 app = FastAPI(title= 'Movies-queries', description= 'ETL - API project', version='1.0.1')
 
+#Se definen las funciones para las consultas a realizar en el navegador
+# EL retorno de las funciones se acomoda para la compatibilidad del tipo de archivo que se disponibiliza en el navegador (json)
 @app.get('/duracion_maxima/')
-async def MaxDuracion(year:int, tipo:str, plataforma:str):
-        #engine = sqlalchemy.create_engine(DATABASE_URL)
+async def MaxDuracion(year:int, tipo:str, plataforma:str): #
         DF = pd.read_sql('filmes', engine)
         Filtro_consulta = (DF['Platform'] == plataforma) & (DF['release_year'] == year) & (DF['type'] == tipo)
         indice = DF[Filtro_consulta]['duration'].idxmax()
