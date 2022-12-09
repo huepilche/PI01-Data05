@@ -14,7 +14,7 @@ FastAPI: Usado para implementar aplicación de interfaz web que genera consultas
 Docker: usado para crear imagen de FastAPI en contenedor
 
 
-CONTENIDO DEL REPOSITORIO: En la carpeta principal se encuentra el archivo Docker junto a sus requerimientos y la licencia de uso, Un archivo .ipynb que contiene la ingesta, normalización y transformación de los datos. En la carpeta 'Datasets' se encuentran los archivos .csv y .json que contienen la información de las plataformas a 
+CONTENIDO DEL REPOSITORIO: En la carpeta principal se encuentra el archivo Docker junto a sus requerimientos y la licencia de uso, Un archivo .ipynb que contiene la ingesta, normalización y transformación de los datos. En la carpeta 'Datasets' se encuentran los archivos .csv y .json que contienen la información de las  producciones cinem  y  un archivo .db asociado a la base de datos correspondiente. Finalmente, en la carpeta App  encontramos un archivo .py con el código para la implementación de la la FastAPI.
 
 
 CONSULTAS:
