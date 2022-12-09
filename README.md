@@ -1,5 +1,7 @@
-# Proyecto de 'Data Engineering' : ETL-API desarrollad como contenedor de Docker
-BREVE DESCRIPCION:
+
+.# Proyecto de 'Data Engineering' : ETL-API como contenedor  de Docker
+
+BREVE DESCRIPCION
 
 Se realiza un proceso de Extracción, Transformación y Carga con librería PANDAS, para posteriormente consumir la Base de Datos generada a través de una FastAPI encapsulada en un Docker. El obejtivo es realizar consultas a una base de datos de producciones cinematográficas como un servicio de interfaz Web.
 
