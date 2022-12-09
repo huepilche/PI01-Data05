@@ -24,7 +24,7 @@ Se consideran cuatro funciones que entregan la siguiente informació
 3) Cantidad de Películas y programas de TV de un determinado género para cada plataforoma. Comando asociado 'get_listedin' con parámetro 'genero'.
 4) Actor con el mayor número de participaciones en producciones para una determinada plataforma y año. Comando asociado 'get_actor' con parámetros 'year' y 'plataforma'
  
-'year': año de lanzamiento.
-'plataforma': Amazon, Disney, Hulu o Netflix.
-'tipo': Movie o TVShow.
+'year': año de lanzamiento, 
+'plataforma': Amazon, Disney, Hulu o Netflix, 
+'tipo': Movie o TVShow, 
 'genero': género de la producción cinematográfica por ejemplo Drama, Comedy, Horror, etc.
