@@ -10,10 +10,10 @@ Pandas y Sqlalchemy: Usado para el procesamiento y creación de Base de Datos
 
 FastAPI: Usado para implementar aplicación de interfaz web que genera consultas a la Base de Datos
 
-Docker: usado para crear imagen de FastAPI en contenedor
+Docker: usado para crear imagen de FastAPI en contenedor.
 
 
-CONTENIDO DEL REPOSITORIO: En la carpeta principal se encuentra el archivo Docker junto a sus requerimientos y la licencia de uso, Un archivo .ipynb que contiene la ingesta, normalización y transformación de los datos. En la carpeta 'Datasets' se encuentran los archivos .csv y .json que contienen la información de las  producciones cinem  y  un archivo .db asociado a la base de datos correspondiente. Finalmente, en la carpeta App  encontramos un archivo .py con el código para la implementación de la la FastAPI.
+CONTENIDO DEL REPOSITORIO: En la carpeta principal se encuentra el archivo Docker junto a sus requerimientos y la licencia de uso, Un archivo .ipynb que contiene la ingesta, normalización y transformación de los datos. En la carpeta 'Datasets' se encuentran los archivos .csv y .json que contienen la información de las  producciones cinem  y  un archivo .db asociado a la base de datos correspondiente. Finalmente, en la carpeta App  encontramos un archivo .py con el código pa.ra la implementación de la la FastAPI.
 
 CONSULTAS:
 
@@ -24,7 +24,7 @@ Se consideran cuatro funciones que entregan la siguiente informació
 3) Cantidad de Películas y programas de TV de un determinado género para cada plataforoma. Comando asociado 'get_listedin' con parámetro 'genero'.
 4) Actor con el mayor número de participaciones en producciones para una determinada plataforma y año. Comando asociado 'get_actor' con parámetros 'year' y 'plataforma'
  
-'year': año de lanzamiento
-'plataforma': Amazon, Disney, Hulu o Netflix
-'tipo': Movie o TVShow
+'year': año de lanzamiento.
+'plataforma': Amazon, Disney, Hulu o Netflix.
+'tipo': Movie o TVShow.
 'genero': género de la producción cinematográfica por ejemplo Drama, Comedy, Horror, etc.
