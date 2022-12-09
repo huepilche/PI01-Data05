@@ -4,7 +4,6 @@ BREVE DESCRIPCION:
 
 Se realiza un proceso de Extracción, Transformación y Carga con librería PANDAS, para posteriormente consumir la Base de Datos generada a través de una FastAPI encapsulada en un Docker.
 
-
 HERRAMIENTAS:
 
 Pandas y Sqlalchemy: Usado para el procesamiento y creación de Base de Datos
@@ -16,10 +15,9 @@ Docker: usado para crear imagen de FastAPI en contenedor
 
 CONTENIDO DEL REPOSITORIO: En la carpeta principal se encuentra el archivo Docker junto a sus requerimientos y la licencia de uso, Un archivo .ipynb que contiene la ingesta, normalización y transformación de los datos. En la carpeta 'Datasets' se encuentran los archivos .csv y .json que contienen la información de las  producciones cinem  y  un archivo .db asociado a la base de datos correspondiente. Finalmente, en la carpeta App  encontramos un archivo .py con el código para la implementación de la la FastAPI.
 
-
 CONSULTAS:
 
-Se consideran cuatro funciones que entregan la siguiente información
+Se consideran cuatro funciones que entregan la siguiente informació
 
 1) Película o programa de TV de mayor duración, en minutos o n° de temporadas respectivamente de una plataforma determinada. Comando asociado 'get_max_duration' con parámetros 'year', 'plataforma' y 'tipo'.
 2) Cantidad de Películas y programas de TV de cada plataforma. Comando asociado 'get_count_platform' con parámetro 'plataforma'
